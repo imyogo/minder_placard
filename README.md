@@ -1,0 +1,1 @@
+# minder_placard
