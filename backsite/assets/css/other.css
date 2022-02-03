@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.heard_tetx {
+    position: relative;
+    top:30%;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+	font-weight: 600;
+}
+
+.left_box_in,.left_box {
+	border: 1px solid;
+	border-radius:10px ;
+	padding: 20px;
+}
+
+.word_break {
+	word-break:break-all;
+	white-space:pre-wrap; 
+}
+
+a.head_top {
+    position: relative;
+    top:40%;
+    font-size: 1rem;
+}
+
+.card .card-block .sub-title {
+    font-size: 18px;
+ 	border-bottom: 1px solid rgba(35, 35, 35,0.35);}
+
+@media screen and (max-width:767px){
+	.left_box_in {
+		display: none;
+	}
+    
+    .heard_tetx {
+        top:20%;
+        font-size: 0.5rem;
+        letter-spacing: 0px;
+    }
+    
+    a.head_top {
+        top:20%;
+        font-size: 0.8rem;
+    }
+    
+    
+}
+
+.table td, .table th {
+	vertical-align: middle;
+}

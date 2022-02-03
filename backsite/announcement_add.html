@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title><?php echo WEB_NAME; ?>-後台 </title>
+    <!-- HTML5 Shim and Respond.js IE9 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+      <!-- Meta -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="description" content="CodedThemes">
+      <meta name="keywords" content=" Admin , Responsive, Landing, Bootstrap, App, Template, Mobile, iOS, Android, apple, creative app">
+      <meta name="author" content="CodedThemes">
+      <!-- Favicon icon -->
+      <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+      <!-- Google font-->
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+      <!-- Required Fremwork -->
+      <link rel="stylesheet" type="text/css" href="assets/css/bootstrap/css/bootstrap.min.css">
+      <!-- themify-icons line icon -->
+      <link rel="stylesheet" type="text/css" href="assets/icon/themify-icons/themify-icons.css">
+      <!-- ico font -->
+      <link rel="stylesheet" type="text/css" href="assets/icon/icofont/css/icofont.css">
+      <link rel="stylesheet" type="text/css" href="icofont/icofont.min.css">
+      
+      <!-- Style.css -->
+      <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/jquery.mCustomScrollbar.css">
+	  <!-- jQuery v1.9.1 -->
+	  <link rel="stylesheet" type="text/css" href="DataTables/datatables.min.css"/>    </head>
+
+  <body>
+    <!-- Pre-loader start -->
+    <div class="theme-loader">
+        <div class="ball-scale">
+            <div class="contain">
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Pre-loader end -->
+    <div id="pcoded" class="pcoded">
+        <div class="pcoded-overlay-box"></div>
+        <div class="pcoded-container navbar-wrapper">
+
+            <nav class="navbar header-navbar pcoded-header">
+                <div class="navbar-wrapper">
+
+                    <div class="navbar-logo">
+                        <a class="mobile-menu" id="mobile-collapse" href="#!">
+                            <i class="ti-menu"></i>
+                        </a>
+                        <a href="index.html">
+                            <img class="img-fluid" src="assets/images/logo.png" alt="Theme-Logo" />
+                        </a>
+                        <a class="mobile-options">
+                            <i class="ti-more"></i>
+                        </a>
+                    </div>
+
+                    <div class="navbar-container container-fluid">
+                        <ul class="nav-right">
+                            <li class="user-profile header-notification">
+                                <a href="#!">
+                                    <img src="assets/images/logo.jpg" class="img-radius" alt="User-Profile-Image">
+                                    <span>明德醫院</span>
+                                    <i class="ti-angle-down"></i>
+                                </a>
+                                <ul class="show-notification profile-notification">
+                                    <li>
+                                        <a href="#">
+                                            <i class="ti-user"></i> 個人資料
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="ti-lock"></i> 變更密碼
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="auth-normal-sign-in.html">
+                                            <i class="ti-layout-sidebar-left"></i> 登出
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="pcoded-main-container">
+                <div class="pcoded-wrapper">
+                    <nav class="pcoded-navbar">
+                        <div class="sidebar_toggle"><a href="#"><i class="icon-close icons"></i></a></div>
+                        <div class="pcoded-inner-navbar main-menu">
+                            <div class="pcoded-navigatio-lavel" data-i18n="nav.category.navigation">院內E化管理系統-前台首頁管理</div>
+                            <ul class="pcoded-item pcoded-left-item">
+                                
+                                <li class="active">
+                                    <a href="homepage.html">
+                                        <span class="pcoded-micon"><i class="ti-announcement"></i><b>D</b></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.dash.main">院內公告</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="calendar.html">
+                                        <span class="pcoded-micon"><i class="ti-calendar"></i><b>C</b></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.form-components.main">工作人員行事曆</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                
+                                <li class="pcoded-hasmenu ">
+                                    <a href="javascript:void(0)">
+                                        <span class="pcoded-micon"><i class="ti-calendar"></i><b>M</b></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.menu-levels.main">病房活動表</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="news.html">
+                                        <span class="pcoded-micon"><i class="ti-announcement"></i><b>FC</b></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.form-components.main">最新消息列表</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            
+                            
+                            
+                            <div class="pcoded-navigatio-lavel" data-i18n="nav.category.forms">各科室</div>
+                            <ul class="pcoded-item pcoded-left-item">
+                                
+                                <li class="pcoded-hasmenu">
+                                    <a href="hospital_list_a.html">
+                                        <span class="pcoded-micon"><i class="ti-support"></i></span>
+                                        <span class="pcoded-mtext"  data-i18n="nav.basic-components.main">院長室</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                
+                                <li class="pcoded-hasmenu">
+                                    <a href="javascript:void(0)">
+                                        <span class="pcoded-micon"><i class="ti-support"></i></span>
+                                        <span class="pcoded-mtext"  data-i18n="nav.basic-components.main">醫師室</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                                               
+                                <li class="pcoded-hasmenu">
+                                    <a href="javascript:void(0)">
+                                        <span class="pcoded-micon"><i class="ti-support"></i></span>
+                                        <span class="pcoded-mtext"  data-i18n="nav.basic-components.main">藥劑室</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                                               
+                                <li class="pcoded-hasmenu">
+                                    <a href="javascript:void(0)">
+                                        <span class="pcoded-micon"><i class="ti-support"></i></span>
+                                        <span class="pcoded-mtext"  data-i18n="nav.basic-components.main">護理室</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                
+                                <li class="pcoded-hasmenu">
+                                    <a href="javascript:void(0)">
+                                        <span class="pcoded-micon"><i class="ti-support"></i></span>
+                                        <span class="pcoded-mtext"  data-i18n="nav.basic-components.main">職能治療室</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                                               
+                                <li class="pcoded-hasmenu">
+                                    <a href="javascript:void(0)">
+                                        <span class="pcoded-micon"><i class="ti-support"></i></span>
+                                        <span class="pcoded-mtext"  data-i18n="nav.basic-components.main">社會工作室</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                                               
+                                <li class="pcoded-hasmenu">
+                                    <a href="javascript:void(0)">
+                                        <span class="pcoded-micon"><i class="ti-support"></i></span>
+                                        <span class="pcoded-mtext"  data-i18n="nav.basic-components.main">心理室</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                
+                                <li class="pcoded-hasmenu">
+                                    <a href="javascript:void(0)">
+                                        <span class="pcoded-micon"><i class="ti-support"></i></span>
+                                        <span class="pcoded-mtext"  data-i18n="nav.basic-components.main">總務室</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                                               
+                                <li class="pcoded-hasmenu">
+                                    <a href="javascript:void(0)">
+                                        <span class="pcoded-micon"><i class="ti-support"></i></span>
+                                        <span class="pcoded-mtext"  data-i18n="nav.basic-components.main">人事室</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                             
+                                <li class="pcoded-hasmenu">
+                                    <a href="javascript:void(0)">
+                                        <span class="pcoded-micon"><i class="ti-support"></i></span>
+                                        <span class="pcoded-mtext"  data-i18n="nav.basic-components.main">會計室</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                
+                                <li class="pcoded-hasmenu">
+                                    <a href="javascript:void(0)">
+                                        <span class="pcoded-micon"><i class="ti-support"></i></span>
+                                        <span class="pcoded-mtext"  data-i18n="nav.basic-components.main">病歷管理室</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+
+							</ul>
+                            
+                        </div>
+                    </nav>
+                    
+                    <div class="pcoded-content">
+                        <div class="pcoded-inner-content">
+                            <div class="main-body">
+                                <div class="page-wrapper">
+                                    
+									<div class="page-header card">
+                                        <div class="row align-items-end">
+                                            <div class="col-lg-8">
+                                                <div class="page-header-title">
+                                                   <i class="icofont icofont-hospital bg-c-blue"></i>
+                                                    <div class="d-inline">
+                                                        <h4>院內E化管理系統</h4>
+                                                        <span>前台管理</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="page-header-breadcrumb">
+                                                    <ul class="breadcrumb-title">
+                                                        <li class="breadcrumb-item">
+                                                            <a href="index.html">
+                                                                <i class="icofont icofont-home"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li class="breadcrumb-item"><a href="#!">院內公告</a>
+                                                        </li>
+                                                        <li class="breadcrumb-item"><a href="#!">新增</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>     
+                                    
+                                                                   
+									<div class="page-body">
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <!-- Basic Form Inputs card start -->
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <h5>新增</h5>
+                                                        </div>
+                                                        <div class="card-block">
+                                                            <form>
+                                                                <div class="form-group row">
+                                                                    <label class="col-sm-2 col-form-label">標題</label>
+                                                                    <div class="col-sm-10">
+                                                                        <input type="text" class="form-control">
+                                                                    </div>
+                                                                 </div>
+																 <div class="form-group row">
+																	<label class="col-sm-2 col-form-label">內容</label>
+																	<div class="col-sm-10">
+																		<textarea rows="10" cols="5" class="form-control"
+																		placeholder="請輸入內容"></textarea>
+																	</div>
+																 </div>
+																 <div class="form-group row">
+																	<label class="col-sm-2 col-form-label">置頂</label>
+																	<div class="col-sm-10">
+																		<div class="center">
+																			<div class="switch_demo">
+																			<input type="checkbox" name="switch_demo" class="switch_demo-checkbox" id="switch_demo" checked>
+																			<label class="switch_demo-label" for="switch_demo">
+																			<span class="switch_demo-inner"></span>
+																			<span class="switch_demo-switch"></span>
+																			</label>
+																			</div>
+																		</div>
+																	</div>
+																 </div>
+																 <div class="form-group row">
+																	<label class="col-sm-2 col-form-label">狀態</label>
+																	<div class="col-sm-10">
+																		<div class="center">
+																			<div class="switch_demo">
+																			<input type="checkbox" name="switch_demo" class="switch_demo-checkbox" id="switch_demo2" checked>
+																			<label class="switch_demo-label" for="switch_demo2">
+																			<span class="switch_demo-inner"></span>
+																			<span class="switch_demo-switch"></span>
+																			</label>
+																			</div>
+																		</div>
+																	</div>
+																 </div>
+																 <div class="form-group row">
+																	<label class="col-sm-2 col-form-label"></label>
+																	<div class="col-sm-10">
+																		<a href="#"><button type="button" class="btn btn-primary">新增院內公告</button></a> 
+																		<a href="#"><button type="button" class="btn btn-danger">回上一頁</button></a> 
+																	</div>
+																 </div>
+															</form>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!--新增公告 end-->	
+										</div>
+										</div>
+										<!-- 新增公告書籤 end -->
+
+                                       
+                                    </div>
+
+                                    <div id="styleSelector">
+
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fixed-button">
+                    <a href="#" target="_top" class="btn btn-md btn-primary">
+                      <i class="ti-upload" aria-hidden="true"></i> 回到頂端
+                    </a>
+                </div>
+
+       
+<!-- Warning Section Ends -->
+<!-- Required Jquery -->
+<script type="text/javascript" src="assets/js/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery-ui/jquery-ui.min.js"></script>
+<script type="text/javascript" src="assets/js/popper.js/popper.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap/js/bootstrap.min.js"></script>
+<!-- jquery slimscroll js -->
+<script type="text/javascript" src="assets/js/jquery-slimscroll/jquery.slimscroll.js"></script>
+<!-- modernizr js -->
+<script type="text/javascript" src="assets/js/modernizr/modernizr.js"></script>
+<!-- am chart -->
+<script src="assets/pages/widget/amchart/amcharts.min.js"></script>
+<script src="assets/pages/widget/amchart/serial.min.js"></script>
+<!-- Todo js -->
+<script type="text/javascript " src="assets/pages/todo/todo.js "></script>
+<!-- Custom js -->
+<script type="text/javascript" src="assets/pages/dashboard/custom-dashboard.js"></script>
+<script type="text/javascript" src="assets/js/script.js"></script>
+<script type="text/javascript " src="assets/js/SmoothScroll.js"></script>
+<script src="assets/js/pcoded.min.js"></script>
+<script src="assets/js/demo-12.js"></script>
+<script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<!-- jQuery v1.9.1 -->
+<script type="text/javascript" src="DataTables/datatables.min.js"></script>
+
+<script>
+$(function () {
+    
+    var $window = $(window);
+    var nav = $('.fixed-button');
+    
+    $window.scroll(function(){
+        if ($window.scrollTop() >= 200) {
+            nav.addClass('active');
+        }else{
+            nav.removeClass('active');
+        }
+    });
+    
+    $("#myDataTalbe").DataTable({
+        language: {
+            "lengthMenu": "顯示 _MENU_ 筆資料",
+            "sProcessing": "處理中...",
+            "sZeroRecords": "没有匹配结果",
+            "sInfo": "目前有 _MAX_ 筆資料",
+            "sInfoEmpty": "目前共有 0 筆紀錄",
+            "sInfoFiltered": " ",
+            "sInfoPostFix": "",
+            "sSearch": "尋找:",
+            "sUrl": "",
+            "sEmptyTable": "尚未有資料紀錄存在",
+            "sLoadingRecords": "載入資料中...",
+            "sInfoThousands": ",",
+            "oPaginate": {
+                "sFirst": "首頁",
+                "sPrevious": "«",
+                "sNext": "»",
+                "sLast": "末頁"
+            },
+            "order": [[0, "desc"]],
+            "oAria": {
+                "sSortAscending": ": 以升序排列此列",
+                "sSortDescending": ": 以降序排列此列"
+            }
+        },
+        "lengthMenu": [10, 25, 50, 100, "全部"],
+        searching: false, //false--否 關閉filter功能 true是 開啟功能
+        responsive: true,
+        columnDefs: [{
+            targets: [3],
+            orderable: false,
+        },
+        { 
+            responsivePriority: 1, targets: 0 //當在RWD時,最左邊的列（target:1）的優先級為1(也就是標題列)
+        },
+        { 
+            responsivePriority: 2, targets: -1 //當在RWD時,而最右邊的列（target:-1）的優先級為2(也就是功能)
+        }]
+    });
+    
+    
+});
+</script>
+</body>
+
+</html>
